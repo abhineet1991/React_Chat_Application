@@ -1,0 +1,155 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", "Lucida Sans Typewriter", sans-serif;
+  font-weight: 300;
+  background-color: lightgray;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-size: cover;
+  color: #333;
+}
+footer {
+  font-size: 0.75em;
+  color: silver;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
+footer a {
+  color: #f80;
+}
+
+.box {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(30%, -50%);
+}
+
+.sayhello {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-90%, -50%);
+}
+
+.chatbox {
+    width: 500px;
+    min-width: 390px;
+    height: 600px;
+    background: white;
+    padding: 25px;
+    margin: 0px auto 20px auto;
+    box-shadow: 0 3px #ccc;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #333;
+}
+
+.chatlogs {
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    /*background:rgba(200, 200, 200, .1);*/
+}
+
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.headerBar{
+    /*border: 10px solid black;*/
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+    width: 500px;
+    min-width: 390px;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin: 20px auto 0px auto;
+    background: #1c747c;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #333;
+}
+
+.headerBar .title {
+    margin: auto 20px;
+}
+
+.headerBar .user-photo {
+    margin: 0px 0px 0px 10px;
+
+}
+
+.headerBar .user-photo img{
+    width: 100%;
+}
+
+.chat-form {
+    margin-top: 20px;
+    display: flex;
+    width: 65;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.inputDiv {
+    width: 75%;
+    margin-right: 15px;
+
+}
+.chat-form textarea {
+    padding: 5px;
+    background: #fbfbfb;
+    width: 100%;
+    height: 65px;
+    border: 2px solid lightblue;
+    border-radius: 3px;
+    resize: none;
+    /*padding: 10px;*/
+    font-size: 18px;
+    color: #000;
+}
+
+.chat-form textarea:focus {
+    background: #fff;
+}
+
+
+
+
+.chat-form button:hover{
+    background: rgb(255, 153, 0);
+}
+
+
+.buttonStyle{
+
+    background-color: green;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+    color:white;
+    border: 1px;
+    height: 50px;
+    padding:5px;
+
+}
